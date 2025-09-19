@@ -1,0 +1,44 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "id": "section",
+        "type": "ContentType"
+      },
+      "name": "Section",
+      "description": "Page section with title, subtitle, description, image",
+      "displayField": "title",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Text",
+          "localized": false,
+          "required": true
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Text",
+          "localized": false,
+          "required": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "linkType": "Asset",
+          "localized": false,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

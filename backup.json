@@ -1,0 +1,1074 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "sab",
+        "type": "ContentType",
+        "createdAt": "2025-09-19T17:29:01.652Z",
+        "updatedAt": "2025-09-19T18:31:02.158Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2025-09-19T18:31:02.158Z",
+        "firstPublishedAt": "2025-09-19T17:29:02.334Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/content_types/sab"
+      },
+      "displayField": "title",
+      "name": "sab",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "subtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "flex",
+          "name": "flex",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "0kwz96ag9d90",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2025-09-19T17:29:02.440Z",
+        "createdBy": {
+          "sys": {
+            "id": "1RsM1bbtpkyd7kdF4daIY0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2025-09-19T18:31:03.241Z",
+        "updatedBy": {
+          "sys": {
+            "id": "1RsM1bbtpkyd7kdF4daIY0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "sab",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "flex",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "6cFIXQQ5YhRipGg46ckGfy",
+        "type": "Entry",
+        "createdAt": "2025-09-19T18:22:09.676Z",
+        "updatedAt": "2025-09-19T18:24:12.788Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2025-09-19T18:24:12.788Z",
+        "firstPublishedAt": "2025-09-19T18:23:38.459Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sab"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/entries/6cFIXQQ5YhRipGg46ckGfy"
+      },
+      "fields": {
+        "title": {
+          "en-US": "ben10"
+        },
+        "subtitle": {
+          "en-US": "ultimate alien force"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "1kGOC9k3SeI6EYN8BDHBLC",
+        "type": "Entry",
+        "createdAt": "2025-09-19T18:27:21.937Z",
+        "updatedAt": "2025-09-19T18:27:39.961Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2025-09-19T18:27:39.961Z",
+        "firstPublishedAt": "2025-09-19T18:27:39.961Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sab"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/entries/1kGOC9k3SeI6EYN8BDHBLC"
+      },
+      "fields": {
+        "title": {
+          "en-US": "India"
+        },
+        "subtitle": {
+          "en-US": "TamilNadu"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "6g0rTWdeyIqtLTCSDAu6jz",
+        "type": "Entry",
+        "createdAt": "2025-09-19T18:31:07.874Z",
+        "updatedAt": "2025-09-19T18:33:32.014Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2025-09-19T18:33:32.014Z",
+        "firstPublishedAt": "2025-09-19T18:33:32.014Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sab"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/entries/6g0rTWdeyIqtLTCSDAu6jz"
+      },
+      "fields": {
+        "title": {
+          "en-US": "world"
+        },
+        "subtitle": {
+          "en-US": "india"
+        },
+        "flex": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5z8aREhUXYiJfxxeyUt3NV"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "1VmYAuBQDR8aAmdIBoGGTP",
+        "type": "Entry",
+        "createdAt": "2025-09-19T18:47:38.951Z",
+        "updatedAt": "2025-09-19T18:51:16.045Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2025-09-19T18:51:16.045Z",
+        "firstPublishedAt": "2025-09-19T18:51:16.045Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sab"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/entries/1VmYAuBQDR8aAmdIBoGGTP"
+      },
+      "fields": {
+        "title": {
+          "en-US": "lg"
+        },
+        "subtitle": {
+          "en-US": "kg195"
+        },
+        "flex": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7xmu9CQwkzXKo2KxpjnJGR"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "6E00gMezDZZzmR1T2Gvq5",
+        "type": "Entry",
+        "createdAt": "2025-09-19T19:01:18.938Z",
+        "updatedAt": "2025-09-19T19:03:23.287Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2025-09-19T19:03:23.287Z",
+        "firstPublishedAt": "2025-09-19T19:03:23.287Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "sab"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/entries/6E00gMezDZZzmR1T2Gvq5"
+      },
+      "fields": {
+        "title": {
+          "en-US": "India today"
+        },
+        "subtitle": {
+          "en-US": "Ind vs omen"
+        },
+        "flex": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2lNutBbnAHx3NSQpadN8zQ"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "5z8aREhUXYiJfxxeyUt3NV",
+        "type": "Asset",
+        "createdAt": "2025-09-19T18:31:14.512Z",
+        "updatedAt": "2025-09-19T18:33:09.166Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2025-09-19T18:33:09.166Z",
+        "firstPublishedAt": "2025-09-19T18:33:09.166Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/assets/5z8aREhUXYiJfxxeyUt3NV"
+      },
+      "fields": {
+        "title": {
+          "en-US": "indiaMap"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0kwz96ag9d90/5z8aREhUXYiJfxxeyUt3NV/165325be34f70f642ac956e93118cf5b/indiaMap.jfif",
+            "details": {
+              "size": 11468,
+              "image": {
+                "width": 197,
+                "height": 256
+              }
+            },
+            "fileName": "indiaMap.jfif",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "7xmu9CQwkzXKo2KxpjnJGR",
+        "type": "Asset",
+        "createdAt": "2025-09-19T18:50:29.049Z",
+        "updatedAt": "2025-09-19T18:51:04.068Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2025-09-19T18:51:04.068Z",
+        "firstPublishedAt": "2025-09-19T18:51:04.068Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/assets/7xmu9CQwkzXKo2KxpjnJGR"
+      },
+      "fields": {
+        "title": {
+          "en-US": "lg-kg195"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0kwz96ag9d90/7xmu9CQwkzXKo2KxpjnJGR/f90c26bda7ad0f010151343eab9f7bb8/lg-kg195.gif",
+            "details": {
+              "size": 8490,
+              "image": {
+                "width": 139,
+                "height": 184
+              }
+            },
+            "fileName": "lg-kg195.gif",
+            "contentType": "image/gif"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "19M6t9Sysi3inIG74Gt9VJ",
+        "type": "Asset",
+        "createdAt": "2025-09-19T18:55:07.716Z",
+        "updatedAt": "2025-09-19T18:55:42.713Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2025-09-19T18:55:42.713Z",
+        "firstPublishedAt": "2025-09-19T18:55:42.713Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/assets/19M6t9Sysi3inIG74Gt9VJ"
+      },
+      "fields": {
+        "title": {
+          "en-US": "dell-Laptop"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0kwz96ag9d90/19M6t9Sysi3inIG74Gt9VJ/2a8bedf7457027688814aedab27b6fb9/dell.jpg",
+            "details": {
+              "size": 135890,
+              "image": {
+                "width": 974,
+                "height": 974
+              }
+            },
+            "fileName": "dell.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "id": "2lNutBbnAHx3NSQpadN8zQ",
+        "type": "Asset",
+        "createdAt": "2025-09-19T19:02:23.225Z",
+        "updatedAt": "2025-09-19T19:03:16.935Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2025-09-19T19:03:16.935Z",
+        "firstPublishedAt": "2025-09-19T19:03:16.935Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/0kwz96ag9d90/environments/master/assets/2lNutBbnAHx3NSQpadN8zQ"
+      },
+      "fields": {
+        "title": {
+          "en-US": "ind vs omen"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/0kwz96ag9d90/2lNutBbnAHx3NSQpadN8zQ/c2d4300d09d68706d61d1a29b29407db/ind.jpg",
+            "details": {
+              "size": 74709,
+              "image": {
+                "width": 686,
+                "height": 386
+              }
+            },
+            "fileName": "ind.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "1ZrkQVXl1xGyB7FJmkoFEI",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "c652636f-a6e6-455a-a642-b7eb7775ed0a"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "createdAt": "2025-09-19T15:50:14Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedAt": "2025-09-19T15:50:14Z"
+      }
+    }
+  ],
+  "webhooks": [
+    {
+      "name": "Vercel Deploy",
+      "url": "https://api.vercel.com/v1/integrations/deploy/prj_fD78qNl8HnzV9EXkWRIqLPqAe3XU/aOnAe0PQDK",
+      "httpBasicUsername": null,
+      "topics": [
+        "Entry.*"
+      ],
+      "filters": null,
+      "transformation": null,
+      "active": true,
+      "sys": {
+        "type": "WebhookDefinition",
+        "id": "2QtF3KeistfNt0kc4Tv5Xt",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "createdAt": "2025-09-19T18:21:20Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedAt": "2025-09-19T18:21:20Z"
+      },
+      "headers": [
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "1ZN3wy15DThi4chQygemEE",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "0kwz96ag9d90"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "createdAt": "2025-09-19T15:50:14Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1RsM1bbtpkyd7kdF4daIY0"
+          }
+        },
+        "updatedAt": "2025-09-19T15:50:14Z"
+      }
+    }
+  ]
+}
