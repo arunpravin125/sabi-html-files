@@ -87,7 +87,7 @@
   </head>
 
   <body>
-    <div id="content">
+    <div>
       <div class="preloader">
         <img
           class="preloader__image"
@@ -1883,12 +1883,16 @@
         console.log(data); // 👀 check structure in console
 
         // ✅ Use the first entry for banner replacement
-        const entry = data.items[0];
-        if (entry) {
-          document.getElementById("bannerTitle").innerHTML =
-            entry.fields.bannerTitle || "Default Title";
-          document.getElementById("bannerSubtitle").innerHTML =
-            entry.fields.bannerSubtitle || "Default Subtitle";
+        const bannerEntry = data.items[0];
+        if (bannerEntry) {
+          if (bannerEntry.fields.bannerTitle) {
+            document.getElementById("bannerTitle").innerHTML =
+              bannerEntry.fields.bannerTitle;
+          }
+          if (bannerEntry.fields.bannerSubtitle) {
+            document.getElementById("bannerSubtitle").innerHTML =
+              bannerEntry.fields.bannerSubtitle;
+          }
         }
 
         // ✅ Render all entries in #content section
@@ -1904,13 +1908,20 @@
             }
           }
 
+          // ✅ Skip rendering if no title & no subtitle & no image
+          if (!entry.fields.title && !entry.fields.subtitle && !imageUrl) {
+            return;
+          }
+
           container.innerHTML += `
         <div style="margin-bottom:20px;">
-          <h2>${entry.fields.title || "No Title"}</h2>
-          <h3>${entry.fields.subtitle || ""}</h3>
+          ${entry.fields.title ? `<h2>${entry.fields.title}</h2>` : ""}
+          ${entry.fields.subtitle ? `<h3>${entry.fields.subtitle}</h3>` : ""}
           ${
             imageUrl
-              ? `<img src="https:${imageUrl}" alt="${entry.fields.title}" style="max-width:300px;" />`
+              ? `<img src="https:${imageUrl}" alt="${
+                  entry.fields.title || "image"
+                }" style="max-width:300px;" />`
               : ""
           }
         </div>
